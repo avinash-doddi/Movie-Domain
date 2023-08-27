@@ -1,0 +1,16 @@
+*{
+    scroll-behavior: smooth;
+}
+.app{
+    min-height: 100vh;
+    background-color: #39395a;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+
+@media (max-width : 700px){
+    .app{
+        padding-top: 70px;
+    }
+}
